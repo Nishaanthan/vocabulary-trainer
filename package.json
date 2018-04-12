@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nishaanthan/vocabulary-trainer/issues"
   },
-  "homepage": "https://github.com/Nishaanthan/vocabulary-trainer#readme"
+  "homepage": "https://github.com/Nishaanthan/vocabulary-trainer#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
