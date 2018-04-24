@@ -1,25 +1,16 @@
 {
   "name": "vocabulary-trainer",
-  "version": "1.0.0",
-  "description": "\"A pretty JS application to learn vocabularies quickly\"",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nishaanthan/vocabulary-trainer.git"
-  },
-  "author": "Nisanthan Katirkamanathan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Nishaanthan/vocabulary-trainer/issues"
-  },
-  "homepage": "https://github.com/Nishaanthan/vocabulary-trainer#readme",
   "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {
-    "nodemon": "^1.17.3"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
   }
 }
