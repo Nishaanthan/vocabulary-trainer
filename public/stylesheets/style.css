@@ -6,3 +6,16 @@ body {
 a {
   color: #00B7FF;
 }
+
+.left {
+  float: left;
+}
+
+.right{
+  float:right;
+}
+
+nav > li {
+  list-style-type: none;
+  display: inline;
+}

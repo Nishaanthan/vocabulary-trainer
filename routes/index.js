@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Welcome to Vocabulary trainer app' });
 });
 
+router.get('/header',function(req, res, next) {
+ res.render('header');
+});
+
 module.exports = router;
