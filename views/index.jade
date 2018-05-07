@@ -1,6 +1,9 @@
 extends layout
 
 append content
-  h1= title
-  p Welcome to #{title}
+  div Enter the word :
+    input(type="text", required)
+    button(id="translate") convert to Tamil   
+
+    script(src="javascripts/search.js")
 
