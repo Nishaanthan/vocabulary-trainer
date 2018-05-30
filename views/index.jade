@@ -2,8 +2,9 @@ extends layout
 
 append content
   div Enter the word :
-    input(type="text", required)
-    button(id="translate") convert to Tamil   
-
+    input(type="text", name = "original",required)
+    button(id="translate") convert to Tamil  
+  div Translated Text :  
+    input(type="text", name="translated",required)
     script(src="javascripts/search.js")
 
